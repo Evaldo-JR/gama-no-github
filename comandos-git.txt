@@ -3,3 +3,9 @@ git init -> inicia/cria um repositório na pasta atual;
 git add . -> adiciona todos os arquivos, pastas e subpastas para o 'stage commit';
 git add [nome] -> adiciona o arquivo/pasta específico para o 'stage commit';
 
+git commit -m ["Título"] -m ["Descrição"] -> faz o commit na linha do tempo das alterações feitas ao 'stage commit' para o repositório;
+
+git log -> mostra detalhes como autor da alteração, data da alteração e mensagem do commit;
+
+git status -> mostra a branch que você está, informa quais arquivos foram alterados/adicionados da última marca na linha do tempo até agora;
+
