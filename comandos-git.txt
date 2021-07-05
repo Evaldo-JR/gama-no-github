@@ -1,11 +1,29 @@
-git init -> inicia/cria um repositório na pasta atual;
+git init -> inicia/cria um repositório (versionamento) na pasta atual;
 
 git add . -> adiciona todos os arquivos, pastas e subpastas para o 'stage commit';
-git add [nome] -> adiciona o arquivo/pasta específico para o 'stage commit';
+git add <nome> -> adiciona o arquivo/pasta específico para o 'stage commit';
 
-git commit -m ["Título"] -m ["Descrição"] -> faz o commit na linha do tempo das alterações feitas ao 'stage commit' para o repositório;
+git commit -m <"Título"> [-m <"Descrição">] -> faz o commit na linha do tempo das alterações feitas ao 'stage commit' para o repositório;
 
 git log -> mostra detalhes como autor da alteração, data da alteração e mensagem do commit;
 
 git status -> mostra a branch que você está, informa quais arquivos foram alterados/adicionados da última marca na linha do tempo até agora;
 
+git branch -> mostra todas as branchs criadas no repositório
+git branch <nome> -> cria uma ramificação na linha temporal, onde guarda commits de uma outra realidade da linha temporal principal;
+
+git checkout <branch> -> altera para branch selecionada levando todas as alterações que ainda não foram 'commitadas';
+
+git reset -> remove todos os arquivos em 'stage commit' para 'unstage commit';
+git reset <nome> -> remove o arquivo selecionado que está em 'stage commit' para 'unstage commit';
+
+git merge <branch> -> busca na branch selecionada todas as alterações feitas lá e junta tudo em um novo commit; (precisa fazer o checkout para outra branch)
+
+git rebase <branch> -> o mesmo que 'git merge', mas mantém o histórico de commits; (precisa fazer o checkout para outra branch)
+
+git show [commit id>] -> inspeciona o último commit ou o commit selecionado, mostrando os arquivos alterados/adicionados e o conteúdo que foi alterado;
+
+git remote add origin <link repositório> -> linka o repositório local atual com o repositório em núvem (github, gitlab...);
+
+git push -u origin <branch> -> envia as alterações para o repositório na núvem (github, gitlab...); (precisa ter feito commit antes de enviar)
+git push --force -> enviar as alterações para o repositório forçando as alterações do histórico;
