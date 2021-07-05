@@ -6,11 +6,8 @@ para subir meu projeto para o **github**
 
 >Aprendendo à aprender
 
-+Linkedin: [@evaldojr][3]
-+Instagram: [@whitte.ass][1]
-+Twitter: [@__whiteass][2]
-[1]: https://www.instagram.com/whitte.ass
-[2]: https://www.twitter.com/__whiteass
-[3]: https://www.linkedin.com/in/evaldojr/
++Linkedin: [@evaldojr][https://www.linkedin.com/in/evaldojr]
++Instagram: [@whitte.ass][https://www.instagram.com/whitte.ass]
++Twitter: [@__whiteass][https://www.twitter.com/__whiteass]
 
 **_!! O repositório ainda está em construção !!_**
